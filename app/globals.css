@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+/* Arabic font styling */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Custom styling for the PISA interface */
+.fakelink {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bld {
+  font-weight: bold;
+}
+
+/* Table styling for help sections */
+#testTable,
+#howToTable,
+#pagingTable,
+#scrollingTable,
+#tabsTable,
+#navbarTable,
+#FormulaTable,
+#FSTable,
+#SSTable,
+#CTTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+#testTable th,
+#howToTable th,
+#pagingTable th,
+#scrollingTable th,
+#tabsTable th,
+#navbarTable th,
+#FormulaTable th,
+#FSTable th,
+#SSTable th,
+#CTTable th {
+  background-color: #f0f0f0;
+  padding: 0.75rem;
+  text-align: right;
+}
+
+#testTable td,
+#howToTable td,
+#pagingTable td,
+#scrollingTable td,
+#tabsTable td,
+#navbarTable td,
+#FormulaTable td,
+#FSTable td,
+#SSTable td,
+#CTTable td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
